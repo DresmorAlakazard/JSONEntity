@@ -2,6 +2,7 @@
  * Date: 24/04/2019
  * Version: 1.3.0
  * Author: Marton David Orosz
+ * GitHub: https://github.com/DresmorAlakazard/JSONEntity/blob/master/js/json/JSONEntity.js
  */
 
 "use strict";
