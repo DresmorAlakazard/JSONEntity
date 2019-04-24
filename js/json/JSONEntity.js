@@ -2,8 +2,6 @@
  * Date: 24/04/2019
  * Version: 1.3.0
  * Author: Marton David Orosz
- * Note:
- *  - In SAPui5 you must enable "amd" in the config settings.
  */
 
 "use strict";
@@ -132,7 +130,7 @@
           ++iSendFieldsCount;
         }
 
-        if (!oRecvFind && !oSendFind) {
+        if (this._bStrict && !oRecvFind && !oSendFind) {
           return "unknown";
         }
       }
